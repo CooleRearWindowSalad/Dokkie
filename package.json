@@ -1,0 +1,24 @@
+{
+    "name": "dokkie",
+    "version": "1.0.0",
+    "type": "module",
+    "engines": {
+        "node": "20"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "npm run typecheck && npm run eslint && vite build",
+        "preview": "vite preview",
+        "typecheck": "tsc --noEmit",
+        "eslint": "eslint ./src"
+    },
+    "dependencies": {
+        "eslint": "9.9.0",
+        "glob": "11.0.0",
+        "typescript": "5.5.4",
+        "vite": "5.4.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0"
+    }
+}
